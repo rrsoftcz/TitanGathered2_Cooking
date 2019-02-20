@@ -1,0 +1,17 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+
+  <Script file="TitanGathered2_Cooking.en.lua"/>
+  <Script file="TitanGathered2_Cooking.lua"/>
+
+	<Frame name="TitanGathered2_CookingFrame">
+		<Scripts>
+			<OnLoad>
+				TitanGathered2_Cooking.Button_OnLoad(self);
+			</OnLoad>
+			<OnEvent>
+				TitanGathered2_Cooking.Button_OnEvent(self, event, ...);
+			</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>
